@@ -48,37 +48,30 @@ Whichever condition triggers first invalidates the paste.
  
 ## 📂 Project Structure
 ```
-Pastebin-application/
-
-├─ src/
-
-│  ├─ server.js
-
-│  ├─ redis.js
-
-│  ├─ routes/
-
-│  │  ├─ health.js
-
-│  │  ├─ pastes.js
-
-│  │  └─ view.js
-
-│ ├─ middlewares/
-
-│ │ └─ validate.js
-
-│ └─ utils/
-
-│ ├─ escapeHtml.js
-
-│ └─ time.js
-
-├─ .env
-
-├─ package.json
-
-└─ README.md
+PASTEBIN-APPLICATION/
+│
+├── api/
+│   └── index.js
+│
+├── src/
+│   ├── server.js
+│   ├── redis.js
+│   │
+│   ├── routes/
+│   │   ├── health.js
+│   │   ├── pastes.js
+│   │   └── view.js
+│   │
+│   ├── middlewares/
+│   │   └── validate.js
+│   │
+│   └── utils/
+│       ├── escapeHtml.js
+│       └── time.js
+│
+├── package.json
+├── package-lock.json
+└── vercel.json
 ```
 
 ---
